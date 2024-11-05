@@ -1,7 +1,13 @@
 ## ChangeLog
 
+#### Version 0.7.5-dev (05.11.2024)
+- [feature:] Added support to Android 14 (SDK 34)
+- [bugfix:] Crash Android 14 without FOREGROUND_SERVICE_TYPE_DATA_SYNC permission and dataSync foregroundServiceType
+  
 #### Version 0.7.4-dev (11.01.2023)
-- Fix Crash Android 12
+- [bugfix:] Crash Android 12 (SDK 31)
+- [feature:] Added support to Android 14 (SDK 34)
+- [bugfix:] Crash Android 12 without FLAG_MUTABLE flag
 
 #### Version 0.7.3 (07.08.2019)
 This is more a "just publish all changes after long time" release.
